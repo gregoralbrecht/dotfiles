@@ -22,4 +22,10 @@ brew cask install spotify
 brew cask install vlc
 brew cask install gimp
 brew cask install slack
+
+# Install VSCode and symlink settings and keybindings
 brew cask install visual-studio-code
+rm ~/Library/Application\ Support/Code/User/keybindings.json
+rm ~/Library/Application\ Support/Code/User/settings.json
+ln -s $HOME/.dotfiles/vscode/User/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
+ln -s $HOME/.dotfiles/vscode/User/settings.json $HOME/Library/Application\ Support/Code/User/settings.json

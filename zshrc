@@ -50,8 +50,9 @@ SPACESHIP_NODE_SHOW=false
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias zshrc="code $HOME/.dotfiles/zshrc"
-alias dotfiles="code $HOME/.dotfiles"
+alias ozshrc="code $HOME/.dotfiles/zshrc"
+alias odotfiles="code $HOME/.dotfiles"
+alias gcop="git checkout production"
 
 # ls, the common ones I use a lot shortened for rapid fire usage
 alias l='ls -lFh'     #size,show type,human readable

@@ -77,3 +77,7 @@ alias top="sudo htop"
 # Syntax highlighting, must be sourced at the end
 # See: https://github.com/zsh-users/zsh-syntax-highlighting
 source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# No shared history between tabs
+unsetopt inc_append_history
+unsetopt share_history

@@ -81,3 +81,6 @@ source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # No shared history between tabs
 unsetopt inc_append_history
 unsetopt share_history
+
+# NVM to easily switch between Node versions
+source ~/.nvm/nvm.sh

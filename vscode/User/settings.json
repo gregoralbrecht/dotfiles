@@ -1,25 +1,27 @@
 // Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
 {
-  "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 24,
+  "editor.fontFamily": "'MonoLisa', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 0,
   "editor.fontLigatures": true,
-  "vsicons.dontShowNewVersionMessage": true,
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0,
   "files.eol": "\n",
   "editor.wordWrap": "on",
   "workbench.editor.swipeToNavigate": true,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "workbench.statusBar.visible": true,
   "editor.detectIndentation": true,
   "editor.tabSize": 2,
+  "editor.dragAndDrop": false,
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
   "typescript.check.npmIsInstalled": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
   "explorer.confirmDragAndDrop": false,
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
   "emmet.triggerExpansionOnTab": false,
   "files.exclude": {
     "**/.git": true,
@@ -29,30 +31,103 @@
     "**/.DS_Store": true,
     "**/tmp": true,
     "**/node_modules": true,
-    "**/bower_components": true,
-    "**/dist": true
+    "**/bower_components": true
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/node_modules/**": true,
     "**/tmp/**": true,
-    "**/bower_components/**": true,
-    "**/dist/**": true
+    "**/bower_components/**": true
   },
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
-
+  "workbench.colorTheme": "Night Owl",
   "workbench.colorCustomizations": {},
   "editor.matchBrackets": false,
+  "bracketPairColorizer.forceIterationColorCycle": false,
   "better-comments.multilineComments": true,
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "editor.formatOnSave": true,
-  "workbench.statusBar.feedback.visible": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.suggestionActions.enabled": false,
   "typescript.suggestionActions.enabled": false,
   "[javascript]": {},
-  "workbench.iconTheme": "eq-material-theme-icons-palenight",
-  "sync.gist": "3dc658885235e243d01a980153510815"
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "peacock.affectStatusBar": true,
+  "peacock.affectTitleBar": false,
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#b52e31"
+    },
+    {
+      "name": "Auth0 Orange",
+      "value": "#eb5424"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "C# Purple",
+      "value": "#68217A"
+    },
+    {
+      "name": "Gatsby Purple",
+      "value": "#639"
+    },
+    {
+      "name": "Go Cyan",
+      "value": "#5dc9e2"
+    },
+    {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#00b3e6"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    },
+    {
+      "name": "Storybook Pink",
+      "value": "#ff4784"
+    }
+  ],
+  "breadcrumbs.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "always",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "latex-workshop.view.pdf.viewer": "tab"
 }

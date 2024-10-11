@@ -5,9 +5,6 @@
 
 echo "Installing applications using brew..."
 
-# Upgrade brew
-brew upgrade
-
 # Upgrade any already-installed formulae.
 brew upgrade
 
@@ -46,7 +43,7 @@ brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask spotify
 brew install --cask slack
-brew install --cask visual-studio-code-insiders
+brew install --cask visual-studio-code
 brew install --cask 1password
 brew install --cask figma
 brew install --cask iterm2
@@ -54,15 +51,13 @@ brew install --cask whatsapp
 brew install --cask signal
 brew install --cask telegram
 brew install --cask kap
-brew install --cask writefull
 brew install --cask bartender
-brew install --cask grammarly
-brew install --cask tunnelblick
 brew install --cask zoom
 brew install --cask bluesnooze
 brew install --cask insomnia
 brew install --cask raycast
 brew install --cask vlc
+brew install --cask scroll-reverser
 
 # Remove outdated versions from the cellar.
 brew cleanup
